@@ -41,7 +41,7 @@ export default defineConfig({
     cssCodeSplit: true,
     lib: {
       // Could also be a dictionary or array of multiple entry points
-      entry: "src/components/index.ts",
+      entry: "src/index.ts",
       name: "myLibraryVueTs",
       formats: ["es", "cjs", "umd"],
       fileName: (format) => `my-library-vue-ts.${format}.js`,
