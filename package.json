@@ -1,6 +1,7 @@
 {
   "name": "my-library-vue-ts",
-  "private": false,
+  "license": "UNLICENSED",
+  "private": true,
   "version": "0.0.15",
   "type": "module",
   "files": [
