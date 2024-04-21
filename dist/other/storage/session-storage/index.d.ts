@@ -1,5 +1,6 @@
 export { Retrieve } from "./Retrieve";
 export { Save } from "./Save";
+export { Transfer } from "./Transfer";
 export { StorageID } from "./StorageID";
-export { generateKeyFromPrefixAndSuffix, generateKeySuffix, setItemIntoSessionStorage, getItemFromSessionStorage, removeItemFromSessionStorage, getItemOrDefault, setItemIntoLocalStorage, getItemFromLocalStorage, removeItemFromLocalStorage, } from "./storage-service";
-export type { KeySuffix, StorageItem, StorageItems, TransferKey, TransferKeys, GeneralPrefixes, } from "./TypesAndInterfaces";
+export * from "./storage-service";
+export * from "./TypesAndInterfaces";
