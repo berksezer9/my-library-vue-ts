@@ -2,8 +2,8 @@
 import HelloWorld from '@/components/HelloWorld.vue'
 import MyButton from "@/components/MyButton.vue";
 import {ref} from "vue";
-import {StorageID, Retrieve, Save, getItemOrDefault} from "@/other/storage/session-storage";
-import type {GeneralPrefixes, KeySuffix} from "@/other/storage/session-storage";
+import {StorageID, Retrieve, Save, getItemOrDefault} from "./";
+import type {GeneralPrefixes, KeySuffix} from "./";
 
 const generalPrefixForAllKeyPrefixes: GeneralPrefixes = {'general_prefix': 'general_prefix'};
 const keySuffix: KeySuffix = 'key_suffix';
